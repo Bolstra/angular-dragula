@@ -16,17 +16,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bevacqua/angular-dragula.git"
+    "url": "https://github.com/Bolstra/angular-dragula.git"
   },
   "author": "Nicolas Bevacqua <nicolasbevacqua@gmail.com> (http://bevacqua.io/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bevacqua/angular-dragula/issues"
+    "url": "https://github.com/Bolstra/angular-dragula/issues"
   },
   "homepage": "https://github.com/bevacqua/angular-dragula",
   "dependencies": {
     "atoa": "1.0.0",
-    "dragula": "3.7.1"
+    "dragula": "Bolstra/dragula#bolstra"
   },
   "devDependencies": {
     "angular": "1.4.3",
