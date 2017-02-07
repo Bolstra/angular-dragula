@@ -100,6 +100,11 @@ function register (angular) {
     function destroy (scope, name) {
       var bags = getOrCreateCtx(scope).bags;
       var bag = find(scope, name);
+
+			if (!bag) {
+				return;
+			}
+
       var i = bags.indexOf(bag);
       bags.splice(i, 1);
       bag.drake.destroy();
